@@ -16,6 +16,4 @@ Notes
 =====
 Uses joda to generate date stamp.
 
-By default, displays in middle of screen on second monitor.  MidScreenFrame.class can be edited for specific monitor
-choice or exact location - as of current version, these are only changeable within the class files, but this will be
-changed in future versions.
+As of current version, desired monitor can be selected in config.txt
