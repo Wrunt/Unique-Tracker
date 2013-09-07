@@ -1,0 +1,4 @@
+Enter the number for the desired monitor on which you want the program to display (enter the number of the display according to Windows).
+
+Monitor:
+1
