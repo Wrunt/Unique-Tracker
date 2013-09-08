@@ -443,6 +443,17 @@ public class MainPanel extends JPanel {
                 list.append((String) lines1.get(i));
                 list.append("\r\n");
             }
+            
+            hands.setEnabled(false);
+            type.setEnabled(false);
+            type.removeAllItems();
+            item.setEnabled(false);
+            item.removeAllItems();
+            hands.setVisible(false);
+            type.setVisible(false);
+            item.setVisible(false);
+            
+            base.setSelectedIndex(0);
         }      
     }   
 }
