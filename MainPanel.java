@@ -183,23 +183,23 @@ public class MainPanel extends JPanel {
                    type.setEnabled(false);
                    type.removeAllItems();
                    item.setEnabled(false);
-                   //item.removeAllItems();
+                   item.removeAllItems();
                    hands.setVisible(false);
                    type.setVisible(false);
                    item.setVisible(false);
+                   break;
                case 1:
                    hands.setVisible(false);
                    hands.setEnabled(false);
                    item.setEnabled(false);
                    item.setVisible(false);
                    type.removeAllItems();
-                   if (base.getSelectedIndex() == 1) {
-                       type.setEnabled(true);
-                       type.setVisible(true);
-                       for (int i = 0; i < tBox1.length; i++) {
-                           type.addItem(tBox1[i]);
-                       }
+                   type.setEnabled(true);
+                   type.setVisible(true);
+                   for (int i = 0; i < tBox1.length; i++) {
+                       type.addItem(tBox1[i]);
                    }
+                   System.out.println (base.getSelectedIndex());
                    break;
                case 2:   
                    type.setEnabled(true);
